@@ -1,24 +1,23 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
+﻿.fa-2xs {
+    font-size: 0.625em !important;
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+.fa-xs {
+    font-size: 0.75em !important;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
-*/
-.dl-horizontal dt {
-    white-space: normal;
+.fa-sm {
+    font-size: 0.875em !important;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.fa-lg {
+    font-size: 1.25em !important;
+}
+
+.fa-xl {
+    font-size: 1.5em !important;
+}
+
+.fa-2xl {
+    font-size: 2em !important;
 }
