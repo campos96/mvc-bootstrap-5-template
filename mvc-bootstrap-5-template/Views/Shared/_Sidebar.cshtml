@@ -5,24 +5,18 @@
     <ul class="navbar-nav mb-sm-auto mb-0"
         id="menu">
         <li class="nav-item">
-            <a href="#asd" class="nav-link align-middle row">
+            <a href="@Url.Action("/")" class="nav-link align-middle row">
                 <i class="fa fa-lg col-1 px-3 py-2 fa-home"></i>
                 <span class="ms-1 d-none d-lg-inline col">Home</span>
             </a>
         </li>
         <li class="nav-item">
-            <a href="#aa" class="nav-link align-middle row">
-                <i class="fa fa-lg col-1 px-3 py-2 fa-dashboard"></i>
-                <span class="ms-1 d-none d-lg-inline col">Dashboard</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a href="#" class="nav-link align-middle row">
+            <a href="@Url.Action("BasicTables")" class="nav-link align-middle row">
                 <i class="fa fa-lg col-1 px-3 py-2 fa-table"></i>
-                <span class="ms-1 d-none d-lg-inline col">Orders</span>
+                <span class="ms-1 d-none d-lg-inline col">Basic Tables</span>
             </a>
         </li>
-        <li>
+        @*<li>
             <a href="#submenu3" data-bs-toggle="collapse" class="nav-link align-middle row">
                 <i class="fa fa-lg col-1 px-3 py-2 fa-database"></i>
                 <span class="ms-1 d-none d-lg-inline col">Products</span>
@@ -59,6 +53,6 @@
                 <i class="fa fa-lg col-1 px-3 py-2 fa-users"></i>
                 <span class="ms-1 d-none d-lg-inline col">Customers</span>
             </a>
-        </li>
+        </li>*@
     </ul>
 </nav>
